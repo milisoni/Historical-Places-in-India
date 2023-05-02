@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+header {
+    background-color: #867070;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+h1 {
+    background-size: contain;
+    text-align: center;
+    color: azure;
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.background {
+    background: url(https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg?auto=compress&cs=tinysrgb&w=600) repeat;
+    background-size: contain;
+    width: 100%;
+    height: 15rem;
+    margin-top: 0%;
+}
+
+.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    width: 300px;
+    height: fit-content;
+}
+
+.transbox p {
+    margin: 2%;
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.intro{
+    padding: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align:left;
+    font-family: 'Raleway', sans-serif;;
+    font-size: 1rem;
+    font-weight:600;
+}
+
+.content{
+    padding: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align:left;
+    font-family: 'Raleway', sans-serif;;
+    font-size: 1rem;
+    font-weight:600;
+}
+
+.content>img{
+    width: 500px;
+    height: 300px;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+.container {
+    border-radius: 100px;
+    background-color: #ecdad3;
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.items {
+    margin: 50px;
+    align-self: center;
+}
+
+.items img {
+
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.items img:hover {
+    opacity: 0.3;
+}
+
+footer{
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #7D6E83;
+    color: antiquewhite;
+    font-family: 'Amatic SC', cursive;
+    padding-left: 150px;
+}
+
+
+
