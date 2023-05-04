@@ -96,10 +96,14 @@ h3 {
     grid-template-rows: 1fr, 1fr, 1fr;
     row-gap: 1.8vmax;
     column-gap: 1.8vmax;
+    
 }
 
 .items {
-    margin: 2vmax;
+    margin-top: 2vmax;
+    margin-bottom: 2vmax;
+    margin-left: 5vmax;
+    margin-right: 5vmax;
     align-self: center;
 }
 
