@@ -50,35 +50,37 @@ h1 {
     font-style: italic;
 }
 
-.intro{
+.intro {
     padding: 30px;
     margin-left: 7.8vmax;
     margin-right: 7.8vmax;
-    text-align:start;
-    font-family: 'Raleway', sans-serif;;
+    text-align: start;
+    font-family: 'Raleway', sans-serif;
+    ;
     font-size: 1vmax;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-.content{
-    padding:3vmax;
+.content {
+    padding: 3vmax;
     margin-left: 7.8vmax;
     margin-right: 7.8vmax;
     margin-top: 0.5vmax;
     margin-bottom: 1vmax;
-    text-align:start;
-    font-family: 'Raleway', sans-serif;;
+    text-align: start;
+    font-family: 'Raleway', sans-serif;
+    ;
     font-size: 1vmax;
-    font-weight:600;
+    font-weight: 600;
 }
 
-.content>img{
+.content>img {
     padding: 1vmax;
     width: 30vmax;
     height: 18vmax;
 }
 
-h3{
+h3 {
     margin-left: 10vmax;
     font-weight: bold;
 }
@@ -111,37 +113,30 @@ h3{
     opacity: 0.3;
 }
 
-footer{
+footer {
     font-size: 3vmax;
     font-weight: 700;
     font-style: italic;
     background-color: #7D6E83;
     color: antiquewhite;
     font-family: 'Amatic SC', cursive;
-    padding-left: 150px;
+    padding-left: 9vmax;
     padding-top: 1.5vmax;
     padding-bottom: 1.5vmax;
 }
 
-.icon1{
-    position: absolute;
-    left:80vmax;
-    color:rgb(232, 120, 189)
-}
-.icon2{
-    position: absolute;
-    left:85vmax;
-    color:navy;
-}
-.icon3{
-    position: absolute;
-    left:90vmax;
-    color:black
+.icon1 {
+    margin: 1vmax;
+    margin-left: 2vmax;
+    color: rgb(232, 120, 189)
 }
 
+.icon2 {
+    margin: 1vmax;
+    color: navy;
+}
 
-
-
-
-
-
+.icon3 {
+    margin: 1vmax;
+    color: black
+}
