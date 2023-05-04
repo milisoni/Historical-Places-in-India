@@ -99,7 +99,7 @@ h3 {
 }
 
 .items {
-    margin: 3vmax;
+    margin: 1vmax;
     align-self: center;
 }
 
@@ -107,7 +107,7 @@ h3 {
 
     height: 13vmax;
     width: 13vmax;
-    padding: 0.06vmax;
+    padding: 0.3vmax;
 }
 
 .items img:hover {
